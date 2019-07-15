@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: beige;
+  color: #845015;
+  padding: 50px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 2.5em;
+  font-weight: lighter;
+  color: #DEB887;
+  text-shadow: -3px 0 #845015;
+}
+
+.main {
+  background-color: beige;
+  background-image: url("./Pictures/background2.jpg");
+  background-size: cover;
+  border: 2px double #DEB887;
+  box-shadow: 2px 2px 5px #DEB887;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 5px;
+  width: 900px;
+}
+
+.navigation {
+  padding: 10px 0 25px 0;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navigation a {
+  background-color: beige;
+  border: 1px solid #DEB887;
+  box-shadow: 2px 2px 5px #DEB887;
+  border-radius: 5px;
+  display: inline;
+  margin: 10px;
+  padding: 5px;
+  color: #845015;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: #DEB887;
+  border: 1px solid beige;
+  box-shadow: 2px 2px 5px beige;
+  margin: 10px;
+  color: beige;
+}
+
+.navigation a:active {
+  background-color: #DEB887;
+  border: 1px solid #DEB887;
+  box-shadow: 2px 2px 5px #DEB887;
+  margin: 10px;
+  color: #845015;
+}
+
+.content {
+  border: 1px solid #DEB887;
+  box-shadow: 1px 1px 5px #DEB887;
+  border-radius: 5px;
+  display: block;
+  padding: 5px;
+  height: 700px;
+  min-width: 800px;
+}
+
+.content-header {
+  background-color: beige;
+  border: 1px solid #DEB887;
+  box-shadow: 1px 1px 3px #DEB887;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+img {
+  background-color: beige;
+  border: 1px solid #DEB887;
+  box-shadow: 1px 1px 4px #DEB887;
+  border-radius: 40%;
+  width: 150px;
+  height: 150px;
+  padding: 5px;
+}
+
+h4 {
+  margin: 5px 0px;
+}
+
+td {
+  width: 450px;
+  padding: 5px;
+}
+
+p {
+  text-indent: 1em;
+  text-align: justify;
+}
+
+h4, table, .navigation {
+  font-family: 'Handlee', cursive;
+  font-size: 0.9em;
+}
+
+.table-text {
+  background-color: beige;
+  border: 1px solid #DEB887;
+  box-shadow: 1px 1px 5px #DEB887;
+  border-radius: 5px;
+  display: table-cell;
+  padding: 5px;
+}
+
+.footer {
+  background-color: beige;
+  border: 1px solid #DEB887;
+  box-shadow: 1px 1px 3px #DEB887;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 2px;
+  float: right;
+  font-family: 'Handlee', cursive;
+  font-size: 0.6em;
+}
